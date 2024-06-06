@@ -1,0 +1,87 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100wh;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  padding: 4rem;
+  gap: 1rem;
+  grid-template-rows: repeat(6,1fr);
+  grid-template-columns: repeat(5,1fr);
+  font-size: larger;
+
+}
+.box{
+  border: 2px solid rgb(53, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+.box1{
+  background-color: brown;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.box2{
+  background-color: rgb(31, 26, 26);
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+.box3{
+  background-color: rgb(44, 197, 69);
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.box4{
+  background-color: rgb(62, 30, 205);
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+.box5{
+  background-color: rgb(227, 48, 48);
+}
+.box6{
+  background-color: rgb(215, 97, 234);
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.box7{
+  background-color: rgb(233, 92, 202);
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.box8{
+  background-color: rgb(229, 62, 62);
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.box9{
+  background-color: rgb(140, 23, 113);
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.box10{
+  background-color: rgb(188, 42, 105);
+  grid-column-start: 5;
+  grid-column-end: 6;
+
+}
+.box11{
+  background-color: rgb(214, 181, 32);
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
